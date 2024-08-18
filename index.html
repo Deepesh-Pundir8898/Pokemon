@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>GeeksterMon</title>
+        <script defer src="script.js"></script>
+    </head>
+    <body>
+        <div class="content-wrapper">
+            <header>
+                <img src="image/1.png" alt="" class="img-1">
+                <img src="image/2.png" alt="" class="img-3">
+                <h1>
+                    Pokemon
+                </h1>
+                <img src="image/5.png" alt="" class="img-2">
+                <img src="image/4.png" alt="" class="img-4">
+            </header>
+            <main>
+                <form id="pokemon-type-filter">
+                    <select name="type" class="type-filter">
+                        <option value="">Types</option>
+                    </select>
+                    <input type="submit" value="Filter by Type"/>
+                    
+                    <button onClick="window.location.reload();">Reset</button>
+                </form>
+                <form id="pokemon-search-form" class="" action="" method="GET">
+                    <input id="pokemon-search-input" type="text" name="" placeholder="Enter Pokemon Name"/>
+                </form>
+                <section class="form-spacers"></section>
+                
+                <section id="pokedex">
+                </section>
+            </main>  
+        </div>
+    </body>
+</html>
